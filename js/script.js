@@ -82,3 +82,4 @@ for (let i=0; i<squadre.length; i++){
 
 }
 
+console.log(newArraySquadre)
