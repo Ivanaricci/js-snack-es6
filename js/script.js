@@ -55,6 +55,8 @@ const squadre = [
     }
 ]
 
+
+
 const generateRandomNum = () => {
     return Math.floor(Math.random() * 10) + 1
 }
@@ -63,6 +65,8 @@ for (let i=0; i<squadre.length; i++){
 
     squadre[i].puntiFatti = generateRandomNum();
     squadre[i].falliSubiti = generateRandomNum();
+    
 }
 
 console.log(squadre)
+
