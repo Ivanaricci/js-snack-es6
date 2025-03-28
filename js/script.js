@@ -70,3 +70,15 @@ for (let i=0; i<squadre.length; i++){
 
 console.log(squadre)
 
+let newArraySquadre= [];
+
+for (let i=0; i<squadre.length; i++){
+    let squadra2 = {
+        nome: squadre[i].nome,
+        falliSubiti: squadre[i].falliSubiti
+    }
+
+    newArraySquadre.push(squadra2)
+
+}
+
